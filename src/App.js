@@ -3,7 +3,9 @@ import './App.css';
 import { withAuthenticator, Button, Heading, View, Text } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 
-function App() {
+
+
+function App({ signOut, user }) {
   return (
     <div className="App">
       <header className="App-header">
